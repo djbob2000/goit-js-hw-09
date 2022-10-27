@@ -8,7 +8,6 @@ const refs = {
   inputAmount: document.querySelector(`input[name="amount"]`),
 };
 let delayForPromis = 0;
-
 refs.form.addEventListener(`submit`, onFormSubmit);
 
 function onFormSubmit(event) {
