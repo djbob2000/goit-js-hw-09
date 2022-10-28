@@ -1,5 +1,5 @@
 let timerId = null;
-ref = {
+const ref = {
   startButton: document.querySelector('button[data-start]'),
   stopButton: document.querySelector('button[data-stop]'),
   elementWithChangedBg: document.querySelector('body'),
